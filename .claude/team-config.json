@@ -1,0 +1,74 @@
+{
+  "team": "Career Architect",
+  "version": "1.0.0",
+  "philosophy": "Client First, Evidence Always",
+  "agents": [
+    {
+      "name": "intake-consultant",
+      "role": "Initial client consultation and profile creation",
+      "trigger": "New client engagement or /consult command",
+      "exit_state": "Client Profile Complete"
+    },
+    {
+      "name": "skills-analyst",
+      "role": "Skill inventory and transferable skill identification",
+      "trigger": "After intake complete or /skill-inventory command",
+      "exit_state": "Skill Inventory Complete"
+    },
+    {
+      "name": "keyword-researcher",
+      "role": "Job description analysis and keyword extraction",
+      "trigger": "Job description available or /analyze-job command",
+      "exit_state": "Keywords Extracted"
+    },
+    {
+      "name": "resume-architect",
+      "role": "Resume construction and ATS optimization",
+      "trigger": "After skills + keywords complete or /build-resume command",
+      "exit_state": "Draft Ready for Review"
+    },
+    {
+      "name": "narrative-crafter",
+      "role": "Professional summary, cover letter, LinkedIn About",
+      "trigger": "After resume draft exists — invoked by Resume Architect",
+      "exit_state": "Narrative Complete"
+    },
+    {
+      "name": "qa-reviewer",
+      "role": "Final quality gate before client delivery",
+      "trigger": "After Resume Architect + Narrative Crafter complete",
+      "exit_state": "Approved for Delivery"
+    },
+    {
+      "name": "career-strategist",
+      "role": "Job search strategy and career guidance",
+      "trigger": "/career-strategy command or when client needs search guidance",
+      "exit_state": "Strategy Delivered"
+    }
+  ],
+  "commands": [
+    { "name": "consult", "description": "Start a new client engagement" },
+    { "name": "skill-inventory", "description": "Run comprehensive skill inventory" },
+    { "name": "analyze-job", "description": "Analyze a job description for keywords" },
+    { "name": "build-resume", "description": "Build or optimize a tailored resume" },
+    { "name": "review-resume", "description": "Critically review an existing resume" },
+    { "name": "career-strategy", "description": "Build a job search strategy" }
+  ],
+  "skills": [
+    "ats-optimization",
+    "resume-patterns",
+    "skill-translation",
+    "career-strategy-patterns",
+    "interview-prep",
+    "linkedin-optimization"
+  ],
+  "workflow": [
+    "consult → skill-inventory → analyze-job → build-resume → career-strategy"
+  ],
+  "stop_the_line_conditions": [
+    "Career goals undefined — route to intake-consultant",
+    "No target job description — request before proceeding with keyword research",
+    "Skill inventory incomplete — skills-analyst must complete before resume-architect",
+    "Fabricated credentials detected — halt immediately"
+  ]
+}
