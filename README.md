@@ -1,149 +1,86 @@
-# Career Architect Harness
+# Personal Career Architect Harness
 
-A multi-agent AI harness built for **Claude Code CLI** and **Gemini CLI** that transforms job seekers' skills and experiences into compelling career narratives. The harness orchestrates a team of specialized agents, each owning a discrete step in the resume and career strategy workflow.
+A personal, multi-agent AI harness built for **Claude Code CLI** and **Gemini CLI** that transforms your skills and experiences into compelling career narratives. This harness is designed for a single user to manage their professional profile, tailor resumes for specific job targets, and execute a strategic job search.
 
 ---
 
 ## How It Works
 
-The harness is a collection of AI primitives — **agents**, **commands/workflows**, and **skills** — wired together into a structured workflow. 
+The harness orchestrates a team of specialized AI agents to manage your career documents and strategy. 
 
 - **Claude Code CLI**: Uses `CLAUDE.md` and slash commands in `.claude/commands/`.
-- **Gemini CLI**: Uses `GEMINI.md` and follows the operational workflows described therein.
+- **Gemini CLI**: Uses `GEMINI.md` and follows the personal operational workflows described therein.
 
-Both tools activate the same specialist agents, which draw on domain-skill knowledge to produce specific output files. Each step gates the next.
+Both tools use the same underlying agents and "memory" (your profile and history) to ensure a consistent experience.
+
+### Workflow
+
+The harness follows a logical progression, but as a personal tool, you can jump into any step once your initial profile is set up:
 
 ```
 /consult → /skill-inventory → /analyze-job → /build-resume → /career-strategy
 ```
 
-### Agents
-
-Specialist sub-agents live in `.claude/agents/`. Each agent has a defined role, model capability requirement, and an exit state it must reach before the next agent proceeds.
-
-| Agent | Role | Exit State |
-|-------|------|------------|
-| Intake Consultant | Initial consultation, client profile creation | Client Profile Complete |
-| Skills Analyst | Skill inventory, transferable skill mapping | Skill Inventory Complete |
-| Keyword Researcher | Job description analysis, keyword extraction | Keywords Extracted |
-| Resume Architect | Resume construction, ATS optimization | Draft Ready for Review |
-| Narrative Crafter | Professional summary, cover letter, LinkedIn About | Narrative Complete |
-| QA Reviewer | Final quality gate before delivery | Approved for Delivery |
-| Career Strategist | Job search strategy, networking, salary guidance | Strategy Delivered |
-
-### Commands
-
-Slash commands in `.claude/commands/` trigger the appropriate agent and enforce pre-flight checks. If prerequisites are missing, the command halts and routes you to the correct prior step.
-
-| Command | What It Does |
-|---------|-------------|
-| `/consult [client-name]` | Start a new engagement — intake interview, saves client profile |
-| `/skill-inventory [client-name]` | Run a full skill inventory against the client profile |
-| `/analyze-job [client-name]` | Paste or load a job description — extracts ATS keywords and requirements |
-| `/build-resume [client-name] [job-slug]` | Build a tailored resume, cover letter, and LinkedIn About section |
-| `/review-resume [client-name]` | Critically review an existing resume with actionable feedback |
-| `/career-strategy [client-name]` | Build a job search action plan, networking strategy, and salary approach |
-
-### Skills
-
-Domain expertise modules in `.claude/skills/` are loaded automatically by agents as needed. They are not invoked directly by users.
-
-| Skill | Purpose |
-|-------|---------|
-| `ats-optimization` | ATS formatting rules, keyword placement, anti-patterns to avoid |
-| `resume-patterns` | Bullet formulas, section templates, accomplishment framing |
-| `skill-translation` | Latent and transferable skill identification frameworks |
-| `career-strategy-patterns` | Job search tactics, networking scripts, salary negotiation |
-| `interview-prep` | STAR story coaching, behavioral question banks |
-| `linkedin-optimization` | Profile keyword ranking, recruiter visibility strategies |
+1. **Intake (`/consult`)**: Define your career goals and professional background.
+2. **Skill Inventory (`/skill-inventory`)**: Build a comprehensive, "master" list of your hard and soft skills.
+3. **Job Analysis (`/analyze-job`)**: Analyze a specific job description to extract ATS keywords and identify gaps in your profile.
+4. **Resume Building (`/build-resume`)**: Generate a highly-tailored resume and cover letter for a specific role.
+5. **Career Strategy (`/career-strategy`)**: Develop a networking plan and interview preparation strategy.
 
 ---
 
-## Repository Structure
+## Getting Started (Single-User)
 
+### 1. Initialize Your Profile
+Run the consultation command to create your master profile.
+```bash
+/consult [your-name]
 ```
-.claude/
-├── agents/               # Specialist agent definitions
-├── commands/             # Slash command workflows
-├── skills/               # Domain expertise modules
-├── team-config.json      # Agent roster and workflow config
-client-profiles/          # Created per client — profiles, skill inventories
-job-targets/              # Saved job descriptions and keyword briefs
-resume-outputs/           # Final resume drafts, cover letters, QA reports
-patterns_library/         # Reusable resume patterns and templates
-CLAUDE.md                 # Team philosophy, workflow rules, stop-the-line conditions
+This saves your goals to `client-profiles/[your-name]-profile.md`.
+
+### 2. Map Your Skills
+Build your master skills inventory.
+```bash
+/skill-inventory [your-name]
+```
+
+### 3. Apply for a Job
+When you find a role you want, analyze it and then build your tailored documents.
+```bash
+/analyze-job [your-name]
+# (Follow prompts to paste JD)
+/build-resume [your-name] [job-slug]
 ```
 
 ---
 
-## Quickstart
+## Repository Structure & "Memory"
 
-### New Client, Full Workflow
-
-```
-/consult Jane Smith
-```
-Follow the intake interview. A profile is saved to `client-profiles/jane-smith-profile.md`.
+This repository acts as your career's "external brain." All your data is persisted in the following structure:
 
 ```
-/skill-inventory jane-smith
+client-profiles/          # Your master profile and skill inventories
+job-targets/              # Analysis of every job you've targeted
+resume-outputs/           # Every resume and cover letter generated
+patterns_library/         # Your personal library of resume bullets and patterns
+.claude/                  # Agent logic and command definitions
+GEMINI.md                 # Gemini CLI instructions and project memory
+CLAUDE.md                 # Claude Code instructions
 ```
-The Skills Analyst maps Jane's full skill set, including transferable and latent skills.
-
-```
-/analyze-job jane-smith
-```
-Paste a job description when prompted. A keyword brief is saved to `job-targets/`.
-
-```
-/build-resume jane-smith <job-slug>
-```
-The Resume Architect, Narrative Crafter, and QA Reviewer run in sequence. Output files are saved to `resume-outputs/`.
-
-```
-/career-strategy jane-smith
-```
-The Career Strategist builds a job search action plan.
-
-### Review an Existing Resume
-
-```
-/review-resume jane-smith
-```
-Upload or paste the resume. The QA Reviewer delivers structured feedback.
 
 ---
 
-## Stop-the-Line Rules
+## Why Single-User?
 
-Any agent will halt work and route back if:
-
-- **Client goals are undefined** — return to `/consult`
-- **No target job description** — required before `/analyze-job` can run
-- **Skill inventory incomplete** — `/skill-inventory` must complete before `/build-resume`
-- **Fabricated credentials detected** — work stops immediately, client is notified
-
----
-
-## Output Files
-
-For each client + target role, the harness produces:
-
-| File | Contents |
-|------|----------|
-| `client-profiles/{name}-profile.md` | Career goals, background, target roles |
-| `client-profiles/{name}-skills.md` | Full skill inventory |
-| `job-targets/{slug}-keywords.md` | Extracted keywords, Tier 1/2/3 classification |
-| `resume-outputs/{name}-{slug}-resume.md` | ATS-optimized tailored resume |
-| `resume-outputs/{name}-{slug}-cover-letter.md` | Targeted cover letter |
-| `resume-outputs/{name}-linkedin-about.md` | LinkedIn About section |
-| `resume-outputs/{name}-{slug}-qa-report.md` | QA review with APPROVED/REVISION status |
+This harness is built to be a **Personal Career OS**. By keeping everything in one private repository, you:
+- Maintain a complete history of every application and strategy.
+- Build a "living" skills inventory that grows with your career.
+- Ensure your personal brand remains consistent across all documents.
+- Leverage AI agents that "remember" your background and preferences.
 
 ---
 
-## Ethics
+## Ethics & Standards
 
-- No fabricated accomplishments, credentials, employers, or dates
-- All client data treated as confidential
-- Embellished content is flagged, not silently accepted
-- Every recommendation is grounded in the client's actual experience and the job's real requirements
+- **Evidence Always**: Never fabricate accomplishments. The agents are instructed to highlight your *actual* impact.
+- **Privacy**: Keep this repository private to protect your personal and professional data.
