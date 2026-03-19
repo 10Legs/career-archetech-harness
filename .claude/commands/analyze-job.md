@@ -12,9 +12,11 @@ You are running job description analysis for a Career Architect client.
    - Client profile: `client-profiles/{client-name}-profile.md` — if missing, stop and run `/consult` first
    - Skills inventory: `client-profiles/{client-name}-skills.md` — if missing, recommend `/skill-inventory` first but proceed if client insists
 
-2. Obtain the job description:
-   - If provided as argument text, save it: `job-targets/{company}-{title}-{YYYY-MM-DD}.txt`
-   - If a filename is provided, read it from `job-targets/`
+2. Obtain the job description and initialize directory:
+   - Define a slug for the job: `{YYYY-MM-DD}-{company}-{title}` (use current date if not provided)
+   - Create a dedicated directory: `job-targets/{slug}/`
+   - If provided as argument text, save it: `job-targets/{slug}/job-description.txt`
+   - If a filename is provided, copy it to the new directory as `job-description.txt`
    - If neither, ask the client to paste the job description
 
 ## Execution
@@ -33,11 +35,13 @@ Invoke the **Keyword Researcher** agent:
 
 ## Output
 
-Save to `job-targets/{company}-{title}-keywords.md`
+Save to `job-targets/{slug}/keywords.md`
 
 ## Success Criteria
 
-- [ ] All 4 keyword tiers extracted
+- [ ] Dedicated job directory created
+- [ ] Job description saved as `job-description.txt`
+- [ ] All 4 keyword tiers extracted and saved to `keywords.md`
 - [ ] Gap analysis complete (green/yellow/red)
 - [ ] Resume title recommendation provided
 - [ ] ATS notes documented
@@ -45,5 +49,5 @@ Save to `job-targets/{company}-{title}-keywords.md`
 ## Next Steps
 
 > "Keywords Extracted. Ready to:
-> 1. `/build-resume {client-name} {company}-{title}` — Build a tailored resume for this role
+> 1. `/build-resume {client-name} {slug}` — Build a tailored resume for this role
 > 2. `/analyze-job {client-name}` again — Analyze another job posting"

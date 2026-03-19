@@ -12,7 +12,7 @@ Verify all prerequisites:
 
 1. Client profile: `client-profiles/{client-name}-profile.md` — REQUIRED
 2. Skills inventory: `client-profiles/{client-name}-skills.md` — REQUIRED
-3. Keyword brief: `job-targets/{job-slug}-keywords.md` — REQUIRED
+3. Keyword brief: `job-targets/{job-slug}/keywords.md` — REQUIRED
 
 If any are missing:
 - Profile missing → Run `/consult {client-name}` first
@@ -37,13 +37,13 @@ Check for existing resume: `client-profiles/{client-name}-existing-resume.*`
 4. Apply ATS compliance checklist
 5. Enforce length guidelines
 
-Save draft to: `resume-outputs/{client-name}-{job-slug}-resume.md`
+Save draft to: `job-targets/{job-slug}/resume.md`
 
 ### Phase 2: Narrative Crafter
 
 1. Polish the Professional Summary
-2. Write a tailored Cover Letter
-3. Write LinkedIn About section (first time only, or update if needed)
+2. Write a tailored Cover Letter (Save to: `job-targets/{job-slug}/cover-letter.md`)
+3. Write LinkedIn About section (first time only, or update if needed) (Save to: `resume-outputs/{client-name}-linkedin-about.md`)
 
 ### Phase 3: QA Reviewer
 
@@ -52,12 +52,14 @@ Save draft to: `resume-outputs/{client-name}-{job-slug}-resume.md`
 3. Check accomplishment quality
 4. Flag any issues with routing instructions
 
+Save report to: `job-targets/{job-slug}/qa-report.md`
+
 ## Output Files
 
-- `resume-outputs/{client-name}-{job-slug}-resume.md`
-- `resume-outputs/{client-name}-{job-slug}-cover-letter.md`
-- `resume-outputs/{client-name}-linkedin-about.md`
-- `resume-outputs/{client-name}-{job-slug}-qa-report.md`
+- `job-targets/{job-slug}/resume.md`
+- `job-targets/{job-slug}/cover-letter.md`
+- `resume-outputs/{client-name}-linkedin-about.md` (General output)
+- `job-targets/{job-slug}/qa-report.md`
 
 ## Success Criteria
 

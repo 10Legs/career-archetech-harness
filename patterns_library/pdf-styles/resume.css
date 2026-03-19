@@ -1,0 +1,104 @@
+/* Professional Resume Stylesheet - Modern Executive Theme */
+
+:root {
+  --primary-color: #1a2a6c;
+  --text-color: #333;
+  --light-gray: #f8f9fa;
+  --accent-color: #b21f1f;
+  --font-family-body: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-family-header: 'Segoe UI Bold', sans-serif;
+}
+
+body {
+  font-family: var(--font-family-body);
+  color: var(--text-color);
+  line-height: 1.5;
+  margin: 0;
+  padding: 1in;
+  background-color: white;
+}
+
+/* Header Section */
+h1 {
+  color: var(--primary-color);
+  font-family: var(--font-family-header);
+  font-size: 24pt;
+  margin-bottom: 0.1in;
+  text-transform: uppercase;
+  border-bottom: 2pt solid var(--primary-color);
+  padding-bottom: 0.05in;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 16pt;
+  margin-top: 0.25in;
+  margin-bottom: 0.1in;
+  border-bottom: 1pt solid #ddd;
+}
+
+h3 {
+  font-size: 13pt;
+  margin-top: 0.15in;
+  margin-bottom: 0.05in;
+  font-weight: bold;
+}
+
+/* List Formatting */
+ul {
+  padding-left: 0.2in;
+  margin-bottom: 0.1in;
+}
+
+li {
+  margin-bottom: 0.05in;
+}
+
+/* Specific Section Styles */
+.header-contact {
+  text-align: center;
+  font-size: 10pt;
+  margin-bottom: 0.3in;
+}
+
+.experience-item {
+  margin-bottom: 0.2in;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.experience-title {
+  font-style: italic;
+}
+
+/* STAR-CAR Formatting */
+.bullet-point {
+  text-indent: -0.15in;
+  margin-left: 0.15in;
+}
+
+/* Page Breaks for PDF */
+@media print {
+  .section {
+    page-break-inside: avoid;
+  }
+}
+
+/* Layout for ATS Keywords / Skills */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill-tag {
+  background-color: var(--light-gray);
+  border: 1px solid #ddd;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 9pt;
+}

@@ -48,6 +48,11 @@ As this is a personal harness, all commands default to the user's profile.
 - Maintain a living document of the user's hard and soft skills.
 - *Reference: `.claude/commands/skill-inventory.md`*
 
+### 5. Generate PDF Resume (`/generate-pdf`)
+- Convert a Markdown resume into a visually appealing, professionally styled PDF.
+- Uses custom executive CSS themes.
+- *Reference: `.claude/commands/generate-pdf.md`*
+
 ---
 
 ## Project Memory & Context (Single-User)
@@ -62,8 +67,7 @@ This repository is the source of truth for the user's career journey.
 ### 2. Engagement History
 The "memory" of the user's career progress is stored in:
 - `client-profiles/`: The user's master profile and goal history.
-- `job-targets/`: History of roles the user has analyzed or applied for.
-- `resume-outputs/`: Every version of the user's resume and cover letters.
+- `job-targets/{YYYY-MM-DD}-{company}-{job-title}/`: Dedicated directories for each role the user has analyzed or applied for, containing all research and artifacts (description, keywords, resumes, cover letters, QA reports).
 
 ### 3. Updating Memory
 When you learn new things about the user's preferences, new skills they've acquired, or successful strategies they've used, **update the corresponding files in `client-profiles/` or `GEMINI.md`**.
@@ -74,8 +78,8 @@ When you learn new things about the user's preferences, new skills they've acqui
 
 - **`.claude/`**: Contains the source of truth for agent profiles, commands, and skills.
 - **`client-profiles/`**: Client intake data and skill inventories.
-- **`resume-outputs/`**: Completed resume drafts.
-- **`job-targets/`**: Saved job descriptions and analysis reports.
+- **`job-targets/`**: Subdirectories for each job target containing all related artifacts.
+- **`resume-outputs/`**: General or non-job-specific documents (e.g., LinkedIn about sections).
 - **`patterns_library/`**: Reusable resume patterns and templates.
 
 **Output Standards**: ATS-friendly, professionally formatted, accomplishment-driven, and quantified. All advice must be clear and explain *why*.
