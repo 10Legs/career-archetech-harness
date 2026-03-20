@@ -21,11 +21,11 @@
 ### Methodologies & Frameworks
 - **Client Trust Building**: "Feel, Felt, Found" Methodology for empathy and conflict resolution.
 - **Account Management**: Contract renegotiations, extensions, strategic client advisory.
-- **Incident Response**: Tier 2/3 technical support, escalated case resolution (95% success rate).
+- **Incident Response**: Tier 2/3 technical support, consistently resolving the vast majority of complex escalated cases.
 - **Project Management**: Coordinating cross-functional teams for zero-disruption system wind-downs.
 
 ### Quantitative & Analytical
-- **Scale Operations**: Supporting 6,000+ globally deployed devices and 2,000,000+ endpoint deployments.
+- **Scale Operations**: Supporting 6,000+ globally deployed devices and massive-scale, multi-million endpoint environments.
 - **Automation**: Reduced setup time from 2 hours to 10 minutes via Docker scripts.
 
 ### Credentials & Certifications
@@ -79,4 +79,4 @@
 2. **Unwavering Client Trust**: Master of the "Feel, Felt, Found" method to maintain and grow high-paying client relationships.
 3. **Black-Belt Discipline**: A literal BJJ Black Belt, signaling a level of grit and strategic calm that is rare in the corporate world.
 4. **Crypto-Security Orchestrator**: Deep, routine mastery of the most complex key management systems in existence (Coinbase/Unbound).
-5. **System Troubleshooting Superpower**: A 25-year track record of diagnosing and fixing what others cannot, at massive scale (2M+ endpoints).
+5. **System Troubleshooting Superpower**: A 25-year track record of diagnosing and fixing what others cannot, at massive enterprise scale.

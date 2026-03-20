@@ -22,7 +22,7 @@ Strategic and highly technical Customer Success Leader with over 25 years of exp
 ### Coinbase, Inc. | Atlanta, GA
 **Technical Account Manager – Core Cryptography Group** | Jan 2022 – Present
 *   **Drive Technical Adoption**: Lead the strategic migration and wind-down of legacy Unbound systems for high-stakes enterprise clients, ensuring zero service disruption during the transition to scalable, modern cryptographic frameworks.
-*   **Trusted Advisor**: Resolve 95% of escalated Tier 2/3 technical cases for global cryptography clients, utilizing proprietary diagnostics to mitigate high-stakes security risks.
+*   **Trusted Advisor**: Consistently resolve the vast majority of complex Tier 2/3 technical cases for global cryptography clients, utilizing proprietary diagnostics to mitigate high-stakes security risks.
 *   **Strategic Growth**: Partner with legal and account teams to negotiate contract extensions and expansions by demonstrating clear security ROI and risk reduction.
 *   **AI Innovation**: Developing custom AI agentic harnesses to automate complex cryptographic troubleshooting and internal workflows, aligning with next-generation AI security posture management (AISPM).
 
@@ -35,7 +35,7 @@ Strategic and highly technical Customer Success Leader with over 25 years of exp
 ### Dell SecureWorks | Atlanta, GA
 **Network Security Sr. Consultant – MSS Engineering** | Feb 2014 – Aug 2021
 *   **Scale Operations**: Served as global Subject Matter Expert (SME) for the iSensor IPS and Red Cloak Advanced Endpoint Threat Detection services.
-*   **Global Impact**: Supported the configuration and health of 6,000+ globally deployed devices and over 2,000,000 endpoint deployments for Global 2000 customers.
+*   **Global Impact**: Supported the configuration and health of 6,000+ globally deployed devices and massive-scale, multi-million endpoint environments for Global 2000 customers.
 *   **Cross-Functional Impact**: Collaborated directly with Product Management and Software Engineering to define the roadmap for security management tools, acting as the primary "technical voice of the customer."
 *   **Strategic Reviews**: Led advanced troubleshooting sessions for complex multi-vendor networks, forging strong partnerships with strategic accounts through proactive performance optimization.
 

@@ -27,7 +27,7 @@ Motivated. Problem Solver. Effective Decision Maker. Spirited Leader. Dependable
 ### Coinbase, Inc. (Atlanta, Georgia)
 **Technical Account Manager – Core Cryptography Group** | Jan. 2022 – Present
 - Directed strategic wind-down of Unbound legacy systems, coordinating with cross-functional teams to ensure zero service disruption for clients
-- Delivered Tier 2/3 technical support for Unbound cryptography clients, resolving 95% of escalated cases using proprietary tools and customer diagnostics
+- Delivered Tier 2/3 technical support for Unbound cryptography clients, consistently resolving the vast majority of complex escalated cases using proprietary tools and customer diagnostics
 - Advised clients on migration strategies from UKC, CoT, and CASP platforms, enabling customers to adopt new, scalable cryptographic frameworks
 - Collaborated with legal and account teams on contract renegotiations and extensions
 
@@ -42,7 +42,7 @@ Motivated. Problem Solver. Effective Decision Maker. Spirited Leader. Dependable
 
 **Network Security Sr. Consultant – MSS Engineering** | Feb. 2014 – Aug. 2021
 - Was the subject matter expert on the Dell SecureWorks iSensor IPS product line. Responsible for supporting the operation and configuration of more than 6,000 globally deployed devices.
-- Was the subject matter expert on the Dell SecureWorks Red Cloak Advanced Endpoint Threat Detection service. Responsible for supporting the operation and configuration of more than 2,000,000 endpoint deployments.
+- Was the subject matter expert on the Dell SecureWorks Red Cloak Advanced Endpoint Threat Detection service. Responsible for supporting the operation and configuration of massive-scale, multi-million endpoint deployments.
 - Worked closely with the Analysis, HIT, Product Management, CTU, and Software Engineering teams to help define development efforts focused around providing a robust toolset to manage the Dell SecureWorks iSensor, and to promote the adoption of the Dell SecureWorks iSensor product line across our growing customer base.
 - Regularly develop and deliver documentation and training to teams supporting the Dell SecureWorks Red Cloak and iSensor IPS product line.
 - Communicate with customers regarding new features and/or situations where our goals align. This has helped us forge strong partnerships with strategically important customers.

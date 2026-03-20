@@ -35,7 +35,7 @@ Engineering Lead with 25+ years of experience architecting and executing end-to-
 
 ### Network Security Sr. Consultant — MSS Engineering | Dell SecureWorks | Atlanta, GA | Feb. 2014 – Aug. 2021
 
-- **Enterprise Scale Ownership**: Served as Subject Matter Expert (SME) for the Red Cloak Advanced Endpoint Threat Detection service, overseeing the operation and configuration of **2,000,000+ endpoint deployments**.
+- **Enterprise Scale Ownership**: Served as Subject Matter Expert (SME) for the Red Cloak Advanced Endpoint Threat Detection service, overseeing the operation and configuration of **massive-scale, multi-million endpoint environments**.
 - **Product Architecture**: Collaborated with Product Management and Software Engineering to define the technical roadmap and toolset for the iSensor IPS product line, supporting 6,000+ globally deployed devices.
 - **Technical Mentorship**: Regularly developed and delivered advanced technical documentation and training for global engineering teams, fostering a culture of technical excellence.
 - **High-Stakes Troubleshooting**: Led advanced troubleshooting sessions for complex network architectures and sensitive customer interactions, consistently resolving multi-team technical roadblocks.

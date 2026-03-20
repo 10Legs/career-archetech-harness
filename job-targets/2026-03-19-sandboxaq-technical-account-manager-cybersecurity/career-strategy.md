@@ -38,7 +38,7 @@ Ron should prepare specific "SAR" (Situation, Action, Result) stories focusing o
 ### Pillar 3: The Trusted Advisor ("Feel, Felt, Found")
 *   **Story**: A high-stakes, escalated case for a major client (e.g., at Dell SecureWorks or Coinbase).
 *   **Action**: Using the "Feel, Felt, Found" methodology to de-escalate and align.
-*   **Result**: Resolved 95% of cases; forged long-term partnerships with Global 2000 firms.
+*   **Result**: Consistently resolved the vast majority of complex cases; forged long-term partnerships with Global 2000 firms.
 
 ---
 

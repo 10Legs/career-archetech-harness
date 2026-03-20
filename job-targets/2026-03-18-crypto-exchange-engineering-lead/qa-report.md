@@ -28,7 +28,7 @@ The application package is highly competitive, strategically reframing a 25-year
 
 ## Strengths
 
-- **Quantification**: Strong use of metrics, particularly the 2,000,000+ endpoint scale and the transformation of "hours to minutes" for infrastructure automation.
+- **Quantification**: Strong use of metrics, particularly the massive endpoint scale and the transformation of "hours to minutes" for infrastructure automation.
 - **Narrative Alignment**: The cover letter successfully bridges the gap between deep technical security and product-focused engineering leadership.
 - **Differentiators**: The BJJ black belt is used effectively as a "high-signal hook" for discipline and strategic calm.
 
