@@ -1,0 +1,31 @@
+# Job Description: Technical Account Manager, Cybersecurity
+
+**Company**: SandboxAQ
+**Location**: Roswell, GA (Remote/Hybrid possible based on description)
+**Date Fetched**: 2026-03-19
+**URL**: https://www.linkedin.com/jobs/view/4328954386/
+
+## About SandboxAQ
+SandboxAQ is a high-growth company delivering AI solutions that address some of the world's greatest challenges. The company’s Large Quantitative Models (LQMs) power advances in life sciences, financial services, navigation, cybersecurity, and other sectors.
+
+## The Opportunity
+The Cybersecurity Group is looking for a Senior Technical Account Manager. This role is central to our efforts to ensure the long-term success of our most strategic enterprise customers, acting as a trusted advisor to help them navigate the complex transition to post-quantum cryptography. This person will drive the post-sales technical journey for AQtive Guard, ensuring high adoption and measurable risk reduction.
+
+## Key Responsibilities
+* **Drive Technical Adoption**: Partner with customers to craft and execute strategies that drive deep integration of AQtive Guard within their infrastructure.
+* **Lead Strategic Reviews**: Facilitate technical discussions and hands-on sessions to demonstrate best practices and ensure customers maximize their security ROI.
+* **Resolve Complex Challenges**: Proactively identify and troubleshoot technical bottlenecks, collaborating with engineering to resolve high-stakes security issues.
+* **Orchestrate Cross-Functional Impact**: Coordinate between Sales, Product, and Engineering to ensure a seamless customer experience from implementation through expansion.
+* **Proactive Support**: Anticipate technical challenges, develop mitigation strategies, and drive best practices to optimize performance and security.
+
+## Essential Skills & Experience
+* 5+ years of technical experience in cybersecurity, with at least 2 years in a high-touch, customer-facing role (e.g., TAM, Security Architect, or Sales Engineer).
+* **Deep Security Domain Expertise**: Strong understanding of networking, security protocols, PKI, encryption, and vulnerability management.
+* **Proven Project Leadership**: Demonstrated ability to manage multiple complex technical engagements and deliver projects on time and within scope.
+* **Technical Proficiency**: Hands-on experience with enterprise cloud technologies (AWS, Azure, or GCP) and a solid understanding of software architecture.
+* **Elite Communication**: Exceptional ability to articulate complex cryptographic and AI security concepts to both technical and non-technical audiences.
+
+## Highly Desired Skills & Experience
+* **Advanced Certifications**: Relevant cybersecurity (CISSP, CISM) or project management (PMP) credentials.
+* **SaaS & DevOps Familiarity**: Experience with containerization (Docker, Kubernetes) and CI/CD principles in a security context.
+* **Strategic Consulting Background**: Proven experience designing and implementing enterprise-wide security architectures for Global 2000 organizations.
