@@ -91,7 +91,7 @@ Motivated. Problem Solver. Effective Decision Maker. Spirited Leader. Dependable
 - Led information security strategies, policies and best practice efforts involving agency branches throughout the state.
 - Managed entire network infrastructure consisting of Cisco 3600 series routers, Cisco 2900 and 6500 series switches, Checkpoint and PIX firewalls and Lan-to-Lan VPN connectivity to selected sites.
 - Developed end user awareness and education program providing up to date security information relevant to the agency needs.
-- Designed and deployed department PKI solution utilizing Microsoft’s Certificate Services and Baltimore Technologies OmniRoot CA.
+- Designed and deployed department-wide key management systems utilizing Microsoft’s Certificate Services and Baltimore Technologies OmniRoot CA.
 - Created secure wireless network utilizing Cisco Aironet 1200 series access points, 6500 series switch w/ WLSM module and LEAP authentication.
 
 ### E*Trade Group Inc. (Atlanta, Georgia)

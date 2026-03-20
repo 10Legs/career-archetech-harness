@@ -6,7 +6,7 @@ Roswell, GA | 404.702.6664 | rdemeritt@gmail.com | [linkedin.com/in/rondemeritt]
 Strategic and highly technical Customer Success Leader with over 25 years of experience in cybersecurity, cryptography, and enterprise-scale infrastructure. Proven track record as a **Trusted Advisor** for Global 2000 organizations, navigating complex migrations in post-quantum ready environments. Expert in bridging the gap between elite engineering teams and C-suite stakeholders using the "Feel, Felt, Found" methodology to drive technical adoption and long-term ROI. Currently spearheading cryptographic orchestration and AI-driven automation workflows within the Core Cryptography Group at Coinbase.
 
 ## Core Competencies
-*   **Domain Expertise**: Post-Quantum Cryptography (PQC) Transition, Multi-Party Computation (MPC), PKI, Encryption, Vulnerability Management.
+*   **Domain Expertise**: Post-Quantum Cryptography (PQC) Transition, Multi-Party Computation (MPC), Key Management Systems (KMS), Encryption, Vulnerability Management.
 *   **Strategic Leadership**: Technical Account Management (TAM), Strategic Business Reviews, Project Leadership, Cross-Functional Orchestration (Sales/Product/Engineering).
 *   **Technical Proficiency**: AWS/Azure/GCP Cloud Security, Docker/Containerization, Network Security (Cisco, Checkpoint, Juniper), AI Agentic Frameworks.
 *   **Client Mastery**: "Feel, Felt, Found" Communication, Conflict Resolution, Technical Value Realization, Product Roadmap Influence.
@@ -52,7 +52,7 @@ Strategic and highly technical Customer Success Leader with over 25 years of exp
 
 ### Georgia Department of Agriculture | Atlanta, GA
 **Computer Security Analyst** | Nov 2002 – Nov 2004
-*   **PKI Design**: Designed and deployed the department's first PKI solution utilizing Microsoft Certificate Services and Baltimore Technologies OmniRoot CA.
+*   **Key Management Strategy**: Designed and deployed the department's first enterprise key management systems utilizing Microsoft Certificate Services and Baltimore Technologies OmniRoot CA.
 
 ### E*Trade Group Inc. | Atlanta, GA
 **Systems Security Analyst** | Jun 2000 – Jan 2002

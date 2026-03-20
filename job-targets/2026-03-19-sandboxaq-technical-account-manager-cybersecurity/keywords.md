@@ -13,7 +13,7 @@
 - Technical Adoption
 - Strategic Reviews
 - ROI
-- PKI (Public Key Infrastructure)
+- Key Management Systems (KMS)
 - Encryption
 - Vulnerability Management
 - Project Leadership
