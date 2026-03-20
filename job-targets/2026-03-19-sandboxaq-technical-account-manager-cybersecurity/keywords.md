@@ -3,7 +3,7 @@
 ## Primary Keywords (High Weight)
 - Technical Account Manager (TAM)
 - Cybersecurity
-- Post-quantum cryptography (PQC)
+- Next-generation cryptographic standards (PQC)
 - Cryptographic Management
 - AI Security Posture Management (AISPM)
 - Trusted Advisor

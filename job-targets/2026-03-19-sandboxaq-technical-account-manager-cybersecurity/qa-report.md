@@ -5,7 +5,7 @@
 **Date**: 2026-03-19  
 
 ## Alignment Summary
-This role is a **high-confidence match (90%+)**. Ron’s current position at Coinbase/Unbound as a TAM in the Core Cryptography Group mirrors the core requirements of this role. SandboxAQ’s focus on post-quantum cryptography transitions perfectly aligns with Ron’s 25+ years of security and cryptographic experience.
+This role is a **high-confidence match (90%+)**. Ron’s current position at Coinbase/Unbound as a TAM in the Core Cryptography Group mirrors the core requirements of this role. SandboxAQ’s focus on next-generation cryptographic transitions perfectly aligns with Ron’s 25+ years of security and cryptographic experience.
 
 ---
 
@@ -22,7 +22,7 @@ This role is a **high-confidence match (90%+)**. Ron’s current position at Coi
 ## Gaps & Areas to Address
 | Gap | Level | Strategy |
 |-----|-------|----------|
-| **Post-Quantum Cryptography (PQC)** | Low | Ron has deep traditional cryptography experience. The "bridge" is his work with MPC and modern crypto orchestration at Coinbase. |
+| **Next-Generation Cryptographic Transitions (PQC)** | Low | Ron has deep traditional cryptography experience. The "bridge" is his work with MPC and modern crypto orchestration at Coinbase. |
 | **AI Security Posture Management (AISPM)** | Low | Ron's personal work building AI agentic frameworks/harnesses shows he is at the cutting edge of AI implementation, making him a fast learner for AI security. |
 | **Cloud (AWS/Azure/GCP)** | Low | Ron has hands-on experience with cloud-native security; need to ensure this is explicitly highlighted in the tailored resume. |
 | **Kubernetes (K8s)** | Medium | Ron lists Docker; he should emphasize his containerization experience and readiness to scale into Kubernetes environments. |
@@ -31,8 +31,8 @@ This role is a **high-confidence match (90%+)**. Ron’s current position at Coi
 
 ## Strategic Recommendations for Tailoring
 1. **Highlight the "Agentic" Angle**: Position the personal AI harness building as a differentiator. SandboxAQ is an AI company; showing Ron is already "AI-native" in his workflow is a massive bonus.
-2. **Focus on Transition/Migration**: SandboxAQ emphasizes "transition to post-quantum cryptography." Ron should highlight his experience in the "strategic wind-down" and "migration" of legacy systems at Coinbase/Unbound.
-3. **Quantify Scale**: The job mentions "strategic enterprise customers." Ron’s experience with 6,000+ devices and 2M+ endpoint deployments is a perfect surrogate for "Global 2000" scale.
+2. **Focus on Transition/Migration**: SandboxAQ emphasizes the transition to next-generation cryptographic standards. Ron should highlight his experience in the "strategic wind-down" and "migration" of legacy systems at Coinbase/Unbound.
+3. **Quantify Scale**: The job mentions "strategic enterprise customers." Ron’s experience with 6,000+ devices and massive-scale endpoint deployments is a perfect surrogate for large-scale enterprise scale.
 4. **The "Trusted Advisor" Narrative**: Use the "Feel, Felt, Found" methodology as a specific example of how he handles high-stakes customer interactions.
 
 ## Final Verdict

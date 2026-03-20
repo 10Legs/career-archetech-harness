@@ -18,7 +18,7 @@ This is a high-value, "High-Confidence" target for Ron. SandboxAQ represents the
 *   **Leadership**: Marc Porat (Co-Founder/Chairman) or Jack Hidary (CEO)—though direct reach-out should be via shared connections.
 
 ### Outreach Script (Warm Message)
-> "Hi [Name], I've been following SandboxAQ’s work in Large Quantitative Models (LQMs) and the transition to post-quantum cryptography. I’m currently a TAM in the Core Cryptography Group at Coinbase, where I'm managing strategic migrations and building AI-driven troubleshooting harnesses. I saw the Senior TAM opening for the Cybersecurity Group and would love to hear your perspective on the team's culture and the challenges of driving adoption for AQtive Guard. Do you have 15 minutes for a brief 'peer' chat next week?"
+> "Hi [Name], I've been following SandboxAQ’s work in Large Quantitative Models (LQMs) and the transition to next-generation cryptographic standards. I’m currently a TAM in the Core Cryptography Group at Coinbase, where I'm managing strategic migrations and building AI-driven troubleshooting harnesses. I saw the Senior TAM opening for the Cybersecurity Group and would love to hear your perspective on the team's culture and the challenges of driving adoption for AQtive Guard. Do you have 15 minutes for a brief 'peer' chat next week?"
 
 ---
 
@@ -38,13 +38,13 @@ Ron should prepare specific "SAR" (Situation, Action, Result) stories focusing o
 ### Pillar 3: The Trusted Advisor ("Feel, Felt, Found")
 *   **Story**: A high-stakes, escalated case for a major client (e.g., at Dell SecureWorks or Coinbase).
 *   **Action**: Using the "Feel, Felt, Found" methodology to de-escalate and align.
-*   **Result**: Consistently resolved the vast majority of complex cases; forged long-term partnerships with Global 2000 firms.
+*   **Result**: Consistently resolved the vast majority of complex cases; forged long-term partnerships with world-class enterprise firms.
 
 ---
 
 ## 3. Anticipated Objections & Rebuttals
-*   **Objection**: "Do you have specific Post-Quantum Cryptography (PQC) experience?"
-    *   **Rebuttal**: "My 25 years in traditional cryptography and my current work with MPC and modern key management platforms at Coinbase provide the foundational technical journey that SandboxAQ’s clients are currently navigating. I understand the 'before' state better than anyone, which makes me uniquely qualified to guide them to the 'after' (PQC) state."
+*   **Objection**: "Do you have specific experience with next-generation cryptographic transitions (PQC)?"
+    *   **Rebuttal**: "My 25 years in traditional cryptography and my current work with MPC and modern key management platforms at Coinbase provide the foundational technical journey that SandboxAQ’s clients are currently navigating. I understand the 'before' state better than anyone, which makes me uniquely qualified to guide them to the 'after' state."
 *   **Objection**: "Why are you looking to leave Coinbase?"
     *   **Rebuttal**: "The acquisition lifecycle of Unbound is reaching its natural conclusion, and I am looking for my next mission-critical role where I can combine my deep security roots with my passion for AI innovation. SandboxAQ is the only firm I've seen that is truly at the center of that Venn diagram."
 

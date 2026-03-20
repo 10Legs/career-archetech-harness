@@ -3,10 +3,10 @@
 Roswell, GA | 404.702.6664 | rdemeritt@gmail.com | [linkedin.com/in/rondemeritt](https://www.linkedin.com/in/rondemeritt/)
 
 ## Executive Summary
-Strategic and highly technical Customer Success Leader with over 25 years of experience in cybersecurity, cryptography, and enterprise-scale infrastructure. Proven track record as a **Trusted Advisor** for Global 2000 organizations, navigating complex migrations in post-quantum ready environments. Expert in bridging the gap between elite engineering teams and C-suite stakeholders using the "Feel, Felt, Found" methodology to drive technical adoption and long-term ROI. Currently spearheading cryptographic orchestration and AI-driven automation workflows within the Core Cryptography Group at Coinbase.
+Strategic and highly technical Customer Success Leader with over 25 years of experience in cybersecurity, cryptography, and enterprise-scale infrastructure. Proven track record as a **Trusted Advisor** for large-scale enterprise organizations, navigating complex migrations in future-ready security environments. Expert in bridging the gap between elite engineering teams and C-suite stakeholders using the "Feel, Felt, Found" methodology to drive technical adoption and long-term ROI. Currently spearheading cryptographic orchestration and AI-driven automation workflows within the Core Cryptography Group at Coinbase.
 
 ## Core Competencies
-*   **Domain Expertise**: Post-Quantum Cryptography (PQC) Transition, Multi-Party Computation (MPC), Key Management Systems (KMS), Encryption, Vulnerability Management.
+*   **Domain Expertise**: Next-Generation Cryptographic Transitions, Multi-Party Computation (MPC), Key Management Systems (KMS), Encryption, Vulnerability Management.
 *   **Strategic Leadership**: Technical Account Management (TAM), Strategic Business Reviews, Project Leadership, Cross-Functional Orchestration (Sales/Product/Engineering).
 *   **Technical Proficiency**: AWS/Azure/GCP Cloud Security, Docker/Containerization, Network Security (Cisco, Checkpoint, Juniper), AI Agentic Frameworks.
 *   **Client Mastery**: "Feel, Felt, Found" Communication, Conflict Resolution, Technical Value Realization, Product Roadmap Influence.
@@ -35,7 +35,7 @@ Strategic and highly technical Customer Success Leader with over 25 years of exp
 ### Dell SecureWorks | Atlanta, GA
 **Network Security Sr. Consultant – MSS Engineering** | Feb 2014 – Aug 2021
 *   **Scale Operations**: Served as global Subject Matter Expert (SME) for the iSensor IPS and Red Cloak Advanced Endpoint Threat Detection services.
-*   **Global Impact**: Supported the configuration and health of 6,000+ globally deployed devices and massive-scale, multi-million endpoint environments for Global 2000 customers.
+*   **Global Impact**: Supported the configuration and health of 6,000+ globally deployed devices and massive-scale, multi-million endpoint environments for world-class enterprise clients.
 *   **Cross-Functional Impact**: Collaborated directly with Product Management and Software Engineering to define the roadmap for security management tools, acting as the primary "technical voice of the customer."
 *   **Strategic Reviews**: Led advanced troubleshooting sessions for complex multi-vendor networks, forging strong partnerships with strategic accounts through proactive performance optimization.
 
