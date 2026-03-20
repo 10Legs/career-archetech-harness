@@ -30,7 +30,7 @@ Strategic and highly technical Customer Success Leader with over 25 years of exp
 **Technical Account Manager** | Aug 2021 – Jan 2022
 *   **Complex Implementations**: Designed and deployed intricate key management and blockchain integrations using proprietary MPC protocols (UKC, CASP).
 *   **Sales Engineering Partnership**: Drove technical validation during pre-sales cycles, partnering with Sales Engineering to secure enterprise deals through hands-on technical demonstrations.
-*   **Operational Excellence**: Created Docker-based automation scripts to accelerate client environment deployments, reducing setup time from 2 hours to 10 minutes (91% efficiency gain).
+*   **Operational Excellence**: Created Docker-based automation scripts to accelerate client environment deployments, reducing setup time from hours to minutes.
 
 ### Dell SecureWorks | Atlanta, GA
 **Network Security Sr. Consultant – MSS Engineering** | Feb 2014 – Aug 2021

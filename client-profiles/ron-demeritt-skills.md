@@ -26,7 +26,7 @@
 
 ### Quantitative & Analytical
 - **Scale Operations**: Supporting 6,000+ globally deployed devices and massive-scale, multi-million endpoint environments.
-- **Automation**: Reduced setup time from 2 hours to 10 minutes via Docker scripts.
+- **Automation**: Reduced setup time from hours to minutes via Docker scripts.
 
 ### Credentials & Certifications
 - **CISSP**: Certified Information Systems Security Professional.

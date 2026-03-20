@@ -36,7 +36,7 @@ Motivated. Problem Solver. Effective Decision Maker. Spirited Leader. Dependable
 - Designed complex key management and blockchain integrations utilizing proprietary MPC protocols and software (UKC and CASP)
 - Provided high-level troubleshooting and support for UKC and CASP systems
 - Partnered with sales engineering teams to drive technical solutions during pre-sales cycles, helping close deals through technical validation
-- Created automation scripts using Docker to accelerate deployment of client-specific MPC environments, reducing setup time from 2 hours to 10 minutes.
+- Created automation scripts using Docker to accelerate deployment of client-specific MPC environments, reducing setup time from hours to minutes.
 
 ### Dell SecureWorks (Atlanta, Georgia)
 
