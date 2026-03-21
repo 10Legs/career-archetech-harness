@@ -18,14 +18,15 @@ Both tools use the same underlying agents and "memory" (your profile and history
 The harness follows a logical progression, but as a personal tool, you can jump into any step once your initial profile is set up:
 
 ```
-/consult → /skill-inventory → /analyze-job → /build-resume → /career-strategy
+/consult → /skill-inventory → /analyze-job → /build-resume → /interview-prep → /career-strategy
 ```
 
 1. **Intake (`/consult`)**: Define your career goals and professional background.
 2. **Skill Inventory (`/skill-inventory`)**: Build a comprehensive, "master" list of your hard and soft skills.
 3. **Job Analysis (`/analyze-job`)**: Analyze a specific job description to extract ATS keywords and identify gaps in your profile.
 4. **Resume Building (`/build-resume`)**: Generate a highly-tailored resume and cover letter for a specific role.
-5. **Career Strategy (`/career-strategy`)**: Develop a networking plan and interview preparation strategy.
+5. **Interview Prep (`/interview-prep`)**: Prepare for specific interviews with mock sessions and STAR story coaching.
+6. **Career Strategy (`/career-strategy`)**: Develop a networking plan and long-term career strategy.
 
 ---
 
@@ -50,6 +51,12 @@ When you find a role you want, analyze it and then build your tailored documents
 /analyze-job [your-name]
 # (Follow prompts to paste JD)
 /build-resume [your-name] [job-slug]
+```
+
+### 4. Prepare for the Interview
+Once you land an interview, use InterviewAce to prepare.
+```bash
+/interview-prep [your-name] [job-slug]
 ```
 
 ---

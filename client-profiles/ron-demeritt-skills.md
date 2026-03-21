@@ -11,7 +11,7 @@
 - **Security Software**: Dell SecureWorks iSensor IPS, Red Cloak Advanced Endpoint Threat Detection, ISS RealSecure, Websense.
 - **Firewalls/Networking**: Cisco (ASA, PIX, IDS/IPS, VPN 3000/5000), Checkpoint (CCSA), Juniper, HP Tippingpoint, Sourcefire, Sidewinder, Axent Raptor.
 - **Containerization**: Docker (for MPC environment deployment).
-- **Operating Systems**: Sun Solaris, Microsoft Windows.
+- **Operating Systems**: Expert Linux Administration (Ubuntu, CentOS, RHEL, Debian), Sun Solaris, Microsoft Windows.
 
 ### Domain/Industry Knowledge
 - **Cybersecurity**: Managed Security Services (MSS), Intrusion Analysis, Endpoint Threat Detection, SOC operations.
@@ -79,4 +79,4 @@
 2. **Unwavering Client Trust**: Master of the "Feel, Felt, Found" method to maintain and grow high-paying client relationships.
 3. **Black-Belt Discipline**: A literal BJJ Black Belt, signaling a level of grit and strategic calm that is rare in the corporate world.
 4. **Crypto-Security Orchestrator**: Deep, routine mastery of the most complex key management systems in existence (Coinbase/Unbound).
-5. **System Troubleshooting Superpower**: A 25-year track record of diagnosing and fixing what others cannot, at massive enterprise scale.
+5. **System Troubleshooting Superpower**: A 25-year track record of diagnosing and resolving complex issues across Linux, Solaris, and network infrastructure at massive enterprise scale.

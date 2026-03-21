@@ -21,6 +21,7 @@ When performing tasks, you adopt these specialist personas to support the user:
 | **Resume Architect** | Crafting resumes tailored to specific job targets. |
 | **Keyword Researcher** | Analyzing job descriptions for the user's target roles. |
 | **Career Strategist** | Personal career pathing, networking, and negotiation strategy. |
+| **InterviewAce** | Expert interview preparation, mock interviews, and STAR coaching. |
 | **Narrative Crafter** | Crafting the user's professional summary and cover letters. |
 | **QA Reviewer** | Final quality gate for the user's career documents. |
 
@@ -44,11 +45,15 @@ As this is a personal harness, all commands default to the user's profile.
 - Update the user's personal job search and networking plan.
 - *Reference: `.claude/commands/career-strategy.md`*
 
-### 4. Skill Inventory (`/skill-inventory`)
+### 4. Interview Preparation (`/interview-prep`)
+- Specialized interview coaching, mock sessions, and STAR story building.
+- *Reference: `.claude/commands/interview-prep.md`*
+
+### 5. Skill Inventory (`/skill-inventory`)
 - Maintain a living document of the user's hard and soft skills.
 - *Reference: `.claude/commands/skill-inventory.md`*
 
-### 5. Generate PDF Resume (`/generate-pdf`)
+### 6. Generate PDF Resume (`/generate-pdf`)
 - Convert a Markdown resume into a visually appealing, professionally styled PDF.
 - Uses custom executive CSS themes.
 - *Reference: `.claude/commands/generate-pdf.md`*
@@ -82,7 +87,7 @@ When you learn new things about the user's preferences, new skills they've acqui
 - **`resume-outputs/`**: General or non-job-specific documents (e.g., LinkedIn about sections).
 - **`patterns_library/`**: Reusable resume patterns and templates.
 
-**Output Standards**: ATS-friendly, professionally formatted, accomplishment-driven, and quantified. All advice must be clear and explain *why*.
+**Output Standards**: ATS-friendly, professionally formatted, accomplishment-driven, and quantified. All resumes must follow the **Modern Two-Column HTML/CSS Layout** (Navy header, sidebar, main column) and be converted to PDF using **Headless Google Chrome** to ensure a pixel-perfect, single-page result. All advice must be clear and explain *why*.
 
 ## Privacy & Ethics
 
