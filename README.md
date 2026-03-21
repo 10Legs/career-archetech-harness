@@ -9,7 +9,7 @@ A multi-agent AI harness built for Claude Code that transforms job seekers' skil
 The harness is a collection of Claude Code primitives — **agents**, **commands**, and **skills** — wired together into a structured workflow. When you run a slash command, Claude Code activates the appropriate specialist agent, which draws on domain-skill knowledge to produce a specific output file. Each step gates the next.
 
 ```
-/consult → /skill-inventory → /analyze-job → /build-resume → /career-strategy
+/consult → /skill-inventory → /analyze-job → /build-resume → /career-strategy → /interview-prep
 ```
 
 ### Agents
@@ -25,6 +25,7 @@ Specialist sub-agents live in `.claude/agents/`. Each agent has a defined role, 
 | Narrative Crafter | Professional summary, cover letter, LinkedIn About | Narrative Complete |
 | QA Reviewer | Final quality gate before delivery | Approved for Delivery |
 | Career Strategist | Job search strategy, networking, salary guidance | Strategy Delivered |
+| Interview Strategist | Interview prep, mock interviews, STAR coaching, delivery feedback | Interview Preparation Complete |
 
 ### Commands
 
@@ -38,6 +39,7 @@ Slash commands in `.claude/commands/` trigger the appropriate agent and enforce 
 | `/build-resume [client-name] [job-slug]` | Build a tailored resume, cover letter, and LinkedIn About section |
 | `/review-resume [client-name]` | Critically review an existing resume with actionable feedback |
 | `/career-strategy [client-name]` | Build a job search action plan, networking strategy, and salary approach |
+| `/interview-prep [client-name] [job-slug]` | Launch interview preparation — custom prep plan, STAR story bank, mock interviews with scored feedback, delivery coaching |
 
 ### Skills
 
@@ -100,6 +102,11 @@ The Resume Architect, Narrative Crafter, and QA Reviewer run in sequence. Output
 ```
 The Career Strategist builds a job search action plan.
 
+```
+/interview-prep jane-smith google-staff-engineer
+```
+The Interview Strategist assesses preparation risks, builds a tailored prep plan, populates Jane's STAR story bank, runs a scored mock interview, and generates a company research brief. Output is saved to `client-profiles/jane-smith-interview-prep.md`.
+
 ### Review an Existing Resume
 
 ```
@@ -133,6 +140,7 @@ For each client + target role, the harness produces:
 | `resume-outputs/{name}-{slug}-cover-letter.md` | Targeted cover letter |
 | `resume-outputs/{name}-linkedin-about.md` | LinkedIn About section |
 | `resume-outputs/{name}-{slug}-qa-report.md` | QA review with APPROVED/REVISION status |
+| `client-profiles/{name}-interview-prep.md` | Prep plan, STAR story bank, mock scores, action items |
 
 ---
 

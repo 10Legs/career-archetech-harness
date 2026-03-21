@@ -11,7 +11,7 @@
 | Narrative Crafter | `narrative-crafter.md` | Invoked by Resume Architect automatically |
 | QA Reviewer | `qa-reviewer.md` | Final gate before client delivery |
 | Career Strategist | `career-strategist.md` | `/career-strategy` — job search planning |
-| Interview Strategist | `interview-strategist.md` | `/interview-prep` — interview preparation, mock interviews, delivery coaching |
+| Interview Strategist | `interview-strategist.md` | `/interview-prep [client-name] [job-slug]` — interview preparation, mock interviews, delivery coaching |
 
 ## Model Capability Requirements
 
