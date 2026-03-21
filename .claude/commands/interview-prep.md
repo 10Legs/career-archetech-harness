@@ -11,9 +11,11 @@ You are kicking off interview preparation for a Career Architect client.
 1. Verify client profile: `client-profiles/{client-name}-profile.md`
    - If missing, halt: "Please run `/consult {client-name}` first to create a client profile."
 
-2. Check for a keyword brief in `job-targets/` if a job-slug was provided:
-   - `job-targets/{job-slug}-keywords.md`
-   - If a job-slug was provided but the file is missing, prompt: "No keyword brief found for that role — run `/analyze-job {client-name}` first, or share the job description now and I'll analyze it inline."
+2. Load the job analysis brief from `job-targets/`:
+   - If a job-slug was provided, read: `job-targets/{job-slug}-keywords.md`
+   - If no job-slug was provided, scan `job-targets/` for any keyword briefs associated with this client and use the most recent one
+   - If no brief exists at all, prompt: "No job analysis found — run `/analyze-job {client-name}` first, then rerun this command."
+   - **Pass the full contents of the keyword brief to the Interview Strategist.** The agent must not ask questions that this file already answers (company, role title, level, requirements, keyword tiers, gap analysis).
 
 3. Check for an existing interview prep file: `client-profiles/{client-name}-interview-prep.md`
    - If it exists, ask: "An interview prep session already exists for this client — continue where we left off or start fresh?"
@@ -22,10 +24,9 @@ You are kicking off interview preparation for a Career Architect client.
 
 Invoke the **Interview Strategist** agent to run the full session:
 
-1. **Intake** — Confirm interview details not already captured in the client profile:
-   - Target company and role (or pull from profile)
-   - Interview stage (phone screen / behavioral panel / technical / case / final round)
-   - Interview date and timeline urgency
+1. **Intake** — The client profile and job analysis brief are pre-loaded. Do not re-ask anything already answered by those files. Only confirm details that are genuinely unknown:
+   - Interview stage (phone screen / behavioral panel / technical / case / final round) — if not in the profile
+   - Interview date and timeline urgency — if not in the profile
    - Format specifics if known (number of rounds, interviewer roles, known question types)
 
 2. **Risk Assessment** — Immediately identify the client's top 3 preparation risks based on their profile:
