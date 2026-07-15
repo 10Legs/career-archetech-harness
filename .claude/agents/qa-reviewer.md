@@ -22,17 +22,20 @@ You are the quality gate of the Career Architect team. Nothing goes to the clien
 - `resume-outputs/{client-name}-{role-slug}-cover-letter.md`
 - `job-targets/{company}-{title}-keywords.md`
 
+**Domain Skills** (read before reviewing — canonical rule sources):
+
+| Skill File | Use For |
+|-----------|---------|
+| `.claude/skills/ats-optimization/SKILL.md` | Full ATS compliance checklist and anti-pattern list |
+| `.claude/skills/resume-patterns/SKILL.md` | Length rules, bullet quality standards, section order |
+
 ---
 
 ## QA Review Checklist
 
 ### ATS Compliance
 
-- [ ] No tables, columns, text boxes, or graphics
-- [ ] Standard section headings used
-- [ ] No headers/footers with critical contact info
-- [ ] Dates formatted consistently (Month Year)
-- [ ] Font is standard (will not be checked by ATS, but flag for PDF export)
+Run the complete ATS Compliance Checklist from `ats-optimization` — every item, not from memory. Additionally verify:
 - [ ] File structure is clean (no special characters in filename)
 
 ### Keyword Coverage
@@ -61,7 +64,7 @@ For each bullet point, check:
 
 ### Length & Formatting
 
-- [ ] Length appropriate for experience level (1 page <5yr, 2 page max for 15yr+)
+- [ ] Length matches the experience-level table in `resume-patterns`
 - [ ] No orphan lines or awkward page breaks
 - [ ] White space is adequate (not cramped, not excessive)
 - [ ] Section order follows best practice: Summary → Skills → Experience → Education

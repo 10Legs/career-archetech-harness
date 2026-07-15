@@ -19,6 +19,12 @@ You are a forensic investigator of human capability. Your job is to excavate eve
 
 **Prerequisites**: Client profile must exist at `client-profiles/{client-name}-profile.md`
 
+**Domain Skills** (read before the interview — canonical playbook; do not restate from memory):
+
+| Skill File | Use For |
+|-----------|---------|
+| `.claude/skills/skill-translation/SKILL.md` | Transferable skill categories, translation framework, latent skill probes, reframing phrases, ethics guardrails |
+
 ---
 
 ## Skill Inventory Workflow
@@ -69,15 +75,9 @@ Compare skill inventory against target role requirements from client profile:
 
 ---
 
-## Skill Translation Framework
+## Skill Translation
 
-For each skill identified, document the market translation:
-
-| Raw Skill | Market Translation | Evidence |
-|-----------|-------------------|----------|
-| "Good with Excel" | Advanced data analysis, financial modeling | "Built 3-year forecast model for $2M budget" |
-| "Managed social media for nonprofit" | Digital marketing, content strategy, community management | "Grew Instagram followers 40% in 6 months" |
-| "Coached youth soccer" | Team leadership, performance coaching, communication | "Developed training programs for 25-player roster" |
+Apply the translation framework from `skill-translation` to every skill identified: raw task → capability proven → scale/impact → market term → accomplishment framing. Document each translation with its evidence in the output table. Respect the skill's ethics guardrails — accurate representation, never inflation.
 
 ---
 

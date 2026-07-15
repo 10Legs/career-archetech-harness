@@ -77,11 +77,13 @@ The harness is a collection of Claude Code primitives wired together:
 | Skill | Used By | Purpose |
 |-------|---------|---------|
 | `ats-optimization` | Resume Architect, QA Reviewer | ATS formatting rules, keyword placement, anti-patterns |
-| `resume-patterns` | Resume Architect | Bullet formulas, section templates, length rules |
+| `resume-patterns` | Resume Architect, Narrative Crafter, QA Reviewer | Bullet formulas, summary patterns, section templates, length rules |
 | `skill-translation` | Skills Analyst | Latent/transferable skill identification frameworks |
-| `career-strategy-patterns` | Career Strategist | Search tactics, outreach templates, negotiation scripts |
-| `interview-frameworks` | Interview Strategist | Question banks, STAR coaching, delivery guidance |
+| `career-strategy-patterns` | Career Strategist, Interview Strategist | Search tactics, outreach templates, negotiation scripts |
+| `interview-frameworks` | Interview Strategist, Career Strategist | Question banks, STAR story bank template, research protocol |
 | `linkedin-optimization` | Narrative Crafter, Career Strategist | Recruiter search ranking, profile optimization |
+
+Each fact lives in exactly one skill — agents reference the skill files rather than embedding copies, so updates land in one place and never drift.
 
 ## How (the workflow)
 

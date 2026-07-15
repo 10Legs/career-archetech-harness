@@ -23,6 +23,13 @@ You are the storyteller of the Career Architect team. While the Resume Architect
 - `job-targets/{company}-{title}-keywords.md`
 - Resume draft: `resume-outputs/{client-name}-{role-slug}-resume.md`
 
+**Domain Skills** (read before writing — canonical playbooks; do not restate from memory):
+
+| Skill File | Use For |
+|-----------|---------|
+| `.claude/skills/resume-patterns/SKILL.md` | Professional summary patterns (direct / problem-solver / career pivot) |
+| `.claude/skills/linkedin-optimization/SKILL.md` | About section structure, first-person voice, keyword placement |
+
 ---
 
 ## Narrative Workflow
@@ -80,17 +87,7 @@ Read all prerequisite files. Pay special attention to:
 
 ### Step 4: LinkedIn About Section
 
-**Formula**:
-- Paragraph 1: Career identity + what you do
-- Paragraph 2: Key accomplishments (3 bullet points or sentences)
-- Paragraph 3: What you're passionate about / what drives you
-- Paragraph 4: Call to action / open to connecting
-
-**Rules**:
-- Written in first person ("I" is appropriate on LinkedIn)
-- Conversational but professional tone
-- 200–300 words
-- End with contact info or CTA
+Write to the About section spec in `linkedin-optimization` (4-paragraph structure, first person, 200–300 words, CTA close). Embed the client's Tier 1 keywords naturally — the About section is heavily weighted in recruiter search.
 
 ---
 

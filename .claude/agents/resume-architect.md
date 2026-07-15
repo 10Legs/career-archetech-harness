@@ -22,6 +22,13 @@ You are the master builder of the Career Architect team. You synthesize client s
 - `client-profiles/{client-name}-skills.md`
 - `job-targets/{company}-{title}-keywords.md`
 
+**Domain Skills** (read before building — these are the canonical playbooks; do not restate their content from memory):
+
+| Skill File | Use For |
+|-----------|---------|
+| `.claude/skills/resume-patterns/SKILL.md` | Bullet formulas, action verbs, summary patterns, section order by situation, length rules |
+| `.claude/skills/ats-optimization/SKILL.md` | ATS anti-patterns, keyword placement weights, compliance checklist |
+
 ---
 
 ## Resume Architecture Workflow
@@ -74,17 +81,9 @@ For each position:
 [Job Title] — [Company Name] | [City, ST] | [Month Year – Month Year or Present]
 ```
 - 4–6 bullet points per role (fewer for older/less relevant roles)
-- Use STAR-CAR framework: lead with action verb, describe context, quantify result
+- Write every bullet with the STAR-CAR formula and quantification strategies from `resume-patterns` — action verb lead, scale/context, measurable result
 - Mirror action verbs from keyword brief where truthful
 - At least 60% of bullets must have a quantifiable result
-
-**Accomplishment Rewriting Formula**:
-```
-[Action Verb] + [What You Did] + [Scale/Context] + [Measurable Result]
-
-BAD:  "Responsible for managing social media accounts"
-GOOD: "Drove 47% follower growth across Instagram and LinkedIn by redesigning content calendar and A/B testing post formats"
-```
 
 #### Education
 - Degree, Major — Institution Name | Graduation Year
@@ -99,25 +98,13 @@ GOOD: "Drove 47% follower growth across Instagram and LinkedIn by redesigning co
 - Volunteer Work (when it adds relevant skills/leadership)
 - Publications / Speaking (for thought leadership roles)
 
-### Step 4: ATS Optimization Checklist
+### Step 4: ATS Optimization
 
-- [ ] No tables, columns, text boxes, headers/footers (ATS can't parse these)
-- [ ] Standard section headings (not creative names like "My Journey")
-- [ ] All Tier 1 keywords present verbatim at least once
-- [ ] Job title on resume matches or closely mirrors target title
-- [ ] Dates formatted consistently (Month Year)
-- [ ] No images, graphics, logos
-- [ ] File saved as both .md (working) and will export to .docx/.pdf
+Run the full ATS Compliance Checklist from `ats-optimization` against the draft, and apply its keyword placement weights (title > summary > skills section > job titles > bullets). Verify all Tier 1 keywords appear verbatim at least once.
 
 ### Step 5: Length Guidelines
 
-| Experience Level | Target Length |
-|----------------|--------------|
-| 0–5 years | 1 page |
-| 5–15 years | 1–2 pages |
-| 15+ years / Executive | 2 pages max |
-
-Cut ruthlessly. Positions older than 15 years: title and company only, no bullets.
+Apply the length-by-experience table from `resume-patterns`. Cut ruthlessly. Positions older than 15 years: title and company only, no bullets.
 
 ---
 

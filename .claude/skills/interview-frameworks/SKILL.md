@@ -107,6 +107,7 @@ Prepare at least 3, ask 2–3 per interview:
 **About the team**:
 - "How would you describe the team culture?"
 - "How does this team handle disagreements or competing priorities?"
+- "What do top performers on this team have in common?"
 
 **About the company**:
 - "What are the biggest challenges the company is facing right now?"
@@ -115,6 +116,55 @@ Prepare at least 3, ask 2–3 per interview:
 **About the interviewer**:
 - "What's been your favorite part of working here?"
 - "How has your role evolved since you joined?"
+
+**About the process**:
+- "What are the next steps, and what's your timeline for a decision?"
+
+---
+
+## STAR Story Bank Template
+
+Build 8–10 stories using this template. Each story should cover multiple behavioral themes and run 90–120 seconds spoken.
+
+```markdown
+## Story: [Short Title]
+
+**Theme**: [Leadership / Conflict / Failure / Achievement / Collaboration / Problem-Solving / Change / Learning]
+
+**Situation**: [Context — 1-2 sentences]
+
+**Task**: [What I needed to do / my role]
+
+**Action**: [Specifically what I did — 3-4 steps]
+
+**Result**: [Measurable outcome — numbers where possible]
+
+**When to use this story**:
+- "Tell me about a time you led without authority"
+- "Describe a challenging stakeholder situation"
+```
+
+**Themes to cover across the bank** (one story can serve several):
+leadership without authority, conflict resolution, failure and recovery, major quantified accomplishment, problem-solving under ambiguity, cross-functional collaboration, customer/stakeholder management, learning quickly, process improvement, mentorship.
+
+---
+
+## Interview Research Protocol
+
+Before every interview:
+
+1. **Company**: Read last 3 press releases, latest earnings/investor content (if public), Glassdoor reviews (look for patterns), LinkedIn company page (recent announcements)
+2. **Culture**: Values and leadership principles — for companies with explicit frameworks (e.g., Amazon's 16 Leadership Principles), prepare an example for each
+3. **Role**: Map every bullet in the JD to your strongest STAR story
+4. **Interviewer**: LinkedIn profile, recent posts or articles, mutual connections
+5. **Industry**: Major trends, disruptions, or news relevant to their business
+
+---
+
+## Related Skills
+
+- Salary negotiation research stack and scripts: `career-strategy-patterns`
+- LinkedIn profile optimization: `linkedin-optimization`
 
 ---
 

@@ -74,15 +74,7 @@ Thank you,
 
 ## LinkedIn Strategy Patterns
 
-### Headline Formula
-```
-[Target Title] | [Specialty or Industry] | [Top Outcome You Deliver]
-```
-
-Examples:
-- "Product Manager | B2B SaaS | Turning User Research into Revenue-Driving Roadmaps"
-- "Financial Analyst | FP&A | Building Models That Drive $100M+ Business Decisions"
-- "HR Business Partner | Tech Companies | Scaling Teams From Startup to Series C"
+Profile optimization (headline formula, section-by-section guidance, Open to Work settings) is covered in the `linkedin-optimization` skill — this section covers search *activity* only.
 
 ### Activity Strategy (Passive Search)
 - React + comment on posts from target company employees (adds value first)
@@ -125,49 +117,6 @@ When base is stuck, negotiate:
 - Accelerated review timeline (6-month vs. 12-month for raise eligibility)
 - Professional development budget / conference allowance
 
-## Interview STAR Story Bank Template
+## Interview Preparation
 
-Build 8–10 stories using this template:
-
-```markdown
-## Story: [Short Title]
-
-**Theme**: [Leadership / Conflict / Failure / Achievement / Collaboration / Problem-Solving / Change / Learning]
-
-**Situation**: [Context — 1-2 sentences]
-
-**Task**: [What I needed to do / my role]
-
-**Action**: [Specifically what I did — 3-4 steps]
-
-**Result**: [Measurable outcome — numbers where possible]
-
-**When to use this story**:
-- "Tell me about a time you led without authority"
-- "Describe a challenging stakeholder situation"
-```
-
-## Interview Research Protocol
-
-Before every interview:
-1. **Company**: Read last 3 press releases, latest earnings/investor content (if public), Glassdoor reviews (look for patterns), LinkedIn company page (recent announcements)
-2. **Role**: Map every bullet in the JD to your strongest STAR story
-3. **Interviewer**: LinkedIn profile, recent posts or articles, mutual connections
-4. **Industry**: Any major trends, disruptions, or news relevant to their business
-
-## Questions to Ask in Interviews (Signal Intelligence)
-
-About the role:
-- "What does success look like in the first 90 days?"
-- "What are the biggest challenges facing this team right now?"
-
-About the team:
-- "How would you describe the team's working style?"
-- "What do top performers on this team have in common?"
-
-About the company:
-- "What's the most exciting thing happening at [Company] right now?"
-- "How has the company adapted to [relevant industry trend]?"
-
-About the process:
-- "What are the next steps, and what's your timeline for a decision?"
+STAR story bank template, question banks, research protocol, and questions to ask the interviewer all live in the `interview-frameworks` skill — the canonical source for interview prep content.
