@@ -101,13 +101,25 @@ Each fact lives in exactly one skill — agents reference the skill files rather
 
 Each slash command runs pre-flight checks against the files earlier steps produced. If a prerequisite is missing, the command halts and routes you to the correct prior step — this is the gating mechanism. `/amplify` is the exception: it runs standalone at any time, though it reads your profile when it exists.
 
+Each analyzed job gets its own `job-targets/{slug}/` directory (slug = `{company}-{title}`, kebab-case). `/analyze-job` creates it; every downstream artifact for that job lands inside it.
+
 ```mermaid
 flowchart TD
     A["/consult"] -->|"profile/profile.md"| B["/skill-inventory"]
     B -->|"profile/skills.md"| C["/analyze-job"]
-    C -->|"job-targets/{slug}/keywords.md"| D["/build-resume"]
-    D -->|"job-targets/{slug}/*"| E["/career-strategy"]
+    JD[Job posting] --> C
+
+    subgraph JT["job-targets/{slug}/  (one directory per job)"]
+        K["job-description.txt<br/>keywords.md"]
+        O["resume.md<br/>cover-letter.md<br/>qa-report.md"]
+    end
+
+    C --> K
+    K --> D["/build-resume"]
+    D --> O
+    D -->|"profile/linkedin-about.md"| E["/career-strategy"]
     E -->|"profile/job-search-strategy.md"| F["/interview-prep"]
+    O -.-> F
     R["/review-resume"] -.->|existing resume feedback| D
 
     A -.-> M["/amplify"]
@@ -128,13 +140,13 @@ sequenceDiagram
     participant NC as Narrative Crafter
     participant QA as QA Reviewer
     U->>RA: /build-resume job-slug
-    RA->>RA: Load profile + skills + keyword brief
-    RA->>NC: Draft Ready for Review
-    NC->>NC: Polish summary, write cover letter + LinkedIn About
+    RA->>RA: Load profile + skills + job-targets/{slug}/keywords.md
+    RA->>NC: Draft Ready for Review (job-targets/{slug}/resume.md)
+    NC->>NC: Polish summary, write cover-letter.md + profile/linkedin-about.md
     NC->>QA: Narrative Complete
     QA->>QA: ATS, keyword coverage, ethics, consistency checks
     alt Revision required
-        QA->>RA: Route back with QA report
+        QA->>RA: Route back with job-targets/{slug}/qa-report.md
         RA->>QA: Revised draft
     end
     QA->>U: Approved for Delivery
@@ -155,8 +167,6 @@ Every file the harness produces:
 | `job-targets/{slug}/resume.md` | ATS-optimized tailored resume |
 | `job-targets/{slug}/cover-letter.md` | Targeted cover letter |
 | `job-targets/{slug}/qa-report.md` | QA review with APPROVED/REVISION status |
-
-The slug is `{company}-{title}` in kebab-case (e.g. `acme-staff-engineer`) — every artifact for a job lives in its own `job-targets/{slug}/` directory.
 
 ## When (which command, which moment)
 
