@@ -12,8 +12,8 @@ You are kicking off interview preparation for a Career Architect user.
    - If missing, halt: "Please run `/consult` first to create your profile."
 
 2. Load the job analysis brief from `job-targets/`:
-   - If a job-slug was provided, read: `job-targets/{job-slug}-keywords.md`
-   - If no job-slug was provided, scan `job-targets/` for any keyword briefs associated with this user and use the most recent one
+   - If a job-slug was provided, read: `job-targets/{job-slug}/keywords.md`
+   - If no job-slug was provided, scan `job-targets/*/keywords.md` and use the most recent one
    - If no brief exists at all, prompt: "No job analysis found — run `/analyze-job` first, then rerun this command."
    - **Pass the full contents of the keyword brief to the Interview Strategist.** The agent must not ask questions that this file already answers (company, role title, level, requirements, keyword tiers, gap analysis).
 

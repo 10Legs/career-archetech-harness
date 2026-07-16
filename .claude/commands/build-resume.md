@@ -12,7 +12,7 @@ Verify all prerequisites:
 
 1. User profile: `profile/profile.md` — REQUIRED
 2. Skills inventory: `profile/skills.md` — REQUIRED
-3. Keyword brief: `job-targets/{job-slug}-keywords.md` — REQUIRED
+3. Keyword brief: `job-targets/{job-slug}/keywords.md` — REQUIRED
 
 If any are missing:
 - Profile missing → Run `/consult` first
@@ -37,7 +37,7 @@ Check for existing resume: `profile/existing-resume.*`
 4. Apply ATS compliance checklist
 5. Enforce length guidelines
 
-Save draft to: `resume-outputs/{job-slug}-resume.md`
+Save draft to: `job-targets/{job-slug}/resume.md`
 
 ### Phase 2: Narrative Crafter
 
@@ -54,10 +54,12 @@ Save draft to: `resume-outputs/{job-slug}-resume.md`
 
 ## Output Files
 
-- `resume-outputs/{job-slug}-resume.md`
-- `resume-outputs/{job-slug}-cover-letter.md`
-- `resume-outputs/linkedin-about.md`
-- `resume-outputs/{job-slug}-qa-report.md`
+All job-specific artifacts stay in the job's directory:
+
+- `job-targets/{job-slug}/resume.md`
+- `job-targets/{job-slug}/cover-letter.md`
+- `job-targets/{job-slug}/qa-report.md`
+- `profile/linkedin-about.md` (profile-level — one LinkedIn profile, updated per target role)
 
 ## Success Criteria
 

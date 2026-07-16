@@ -13,8 +13,9 @@ You are running job description analysis for a Career Architect user.
    - Skills inventory: `profile/skills.md` — if missing, recommend `/skill-inventory` first but proceed if user insists
 
 2. Obtain the job description:
-   - If provided as argument text, save it: `job-targets/{company}-{title}-{YYYY-MM-DD}.txt`
-   - If a filename is provided, read it from `job-targets/`
+   - Derive the job slug: `{company}-{title}` in kebab-case (e.g. `acme-staff-engineer`). Every artifact for this job lives in `job-targets/{slug}/` — one directory per job.
+   - If provided as argument text, save it: `job-targets/{slug}/job-description.txt`
+   - If a slug or filename is provided, read the job description from `job-targets/{slug}/`
    - If neither, ask the user to paste the job description
 
 ## Execution
@@ -33,7 +34,7 @@ Invoke the **Keyword Researcher** agent:
 
 ## Output
 
-Save to `job-targets/{company}-{title}-keywords.md`
+Save to `job-targets/{slug}/keywords.md`
 
 ## Success Criteria
 

@@ -86,8 +86,8 @@ Work **MUST STOP** if:
 ├── commands/       # Slash commands for workflow steps
 ├── skills/         # Model-invoked domain expertise
 profile/            # Your profile, skill inventory, strategies, amplify plan
-resume-outputs/     # Completed resume drafts
-job-targets/        # Saved job descriptions for analysis
+job-targets/        # One {slug}/ dir per job: description, keywords, resume,
+                    # cover letter, QA report
 patterns_library/   # Reusable resume patterns and templates
 ```
 

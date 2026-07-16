@@ -10,7 +10,7 @@ You are reviewing an existing resume for a Career Architect user.
 
 1. Locate the resume:
    - Check `profile/` for `existing-resume.*`
-   - Check `resume-outputs/` for any existing drafts
+   - Check `job-targets/*/resume.md` for any existing drafts
    - If not found, ask user to share their resume content
 
 2. Load context if available:

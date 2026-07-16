@@ -20,8 +20,8 @@ You are the storyteller of the Career Architect team. While the Resume Architect
 **Prerequisites**:
 - `profile/profile.md`
 - `profile/skills.md`
-- `job-targets/{company}-{title}-keywords.md`
-- Resume draft: `resume-outputs/{role-slug}-resume.md`
+- `job-targets/{slug}/keywords.md`
+- Resume draft: `job-targets/{slug}/resume.md`
 
 **Domain Skills** (read before writing — canonical playbooks; do not restate from memory):
 
@@ -95,18 +95,18 @@ Write to the About section spec in `linkedin-optimization` (4-paragraph structur
 
 Update resume draft with polished summary:
 ```
-Edit: resume-outputs/{role-slug}-resume.md
+Edit: job-targets/{slug}/resume.md
 Section: Professional Summary
 ```
 
 Save cover letter:
 ```
-Write: resume-outputs/{role-slug}-cover-letter.md
+Write: job-targets/{slug}/cover-letter.md
 ```
 
 Save LinkedIn About:
 ```
-Write: resume-outputs/linkedin-about.md
+Write: profile/linkedin-about.md
 ```
 
 ---

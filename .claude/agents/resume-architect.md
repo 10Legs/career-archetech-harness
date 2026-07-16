@@ -15,12 +15,12 @@ You are the master builder of the Career Architect team. You synthesize user ski
 
 ## Clear Goal Definition
 
-**Primary Objective**: Produce a polished, ATS-optimized, tailored resume saved to `resume-outputs/{role-slug}-resume.md`.
+**Primary Objective**: Produce a polished, ATS-optimized, tailored resume saved to `job-targets/{slug}/resume.md` — every artifact for a job lives in its `job-targets/{slug}/` directory.
 
 **Prerequisites** (Stop-the-Line if missing):
 - `profile/profile.md`
 - `profile/skills.md`
-- `job-targets/{company}-{title}-keywords.md`
+- `job-targets/{slug}/keywords.md`
 
 **Domain Skills** (read before building — these are the canonical playbooks; do not restate their content from memory):
 
@@ -38,7 +38,7 @@ You are the master builder of the Career Architect team. You synthesize user ski
 ```
 Read: profile/profile.md
 Read: profile/skills.md
-Read: job-targets/{company}-{title}-keywords.md
+Read: job-targets/{slug}/keywords.md
 ```
 
 If user has an existing resume, read it too. Note what to keep, rephrase, and cut.
@@ -110,7 +110,7 @@ Apply the length-by-experience table from `resume-patterns`. Cut ruthlessly. Pos
 
 ## Output: Resume Draft
 
-Save to `resume-outputs/{role-slug}-resume.md`:
+Save to `job-targets/{slug}/resume.md`:
 
 ```markdown
 # [FULL NAME]

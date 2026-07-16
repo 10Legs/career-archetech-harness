@@ -105,8 +105,8 @@ Each slash command runs pre-flight checks against the files earlier steps produc
 flowchart TD
     A["/consult"] -->|"profile/profile.md"| B["/skill-inventory"]
     B -->|"profile/skills.md"| C["/analyze-job"]
-    C -->|"job-targets/{slug}-keywords.md"| D["/build-resume"]
-    D -->|"resume-outputs/*"| E["/career-strategy"]
+    C -->|"job-targets/{slug}/keywords.md"| D["/build-resume"]
+    D -->|"job-targets/{slug}/*"| E["/career-strategy"]
     E -->|"profile/job-search-strategy.md"| F["/interview-prep"]
     R["/review-resume"] -.->|existing resume feedback| D
 
@@ -149,11 +149,14 @@ Every file the harness produces:
 | `profile/job-search-strategy.md` | Channels, company tiers, 30-day plan |
 | `profile/interview-prep.md` | Prep plan, STAR bank, mock scores, action items |
 | `profile/amplify-plan.md` | Task inventory, AI plays, measurement log, guardrails |
-| `job-targets/{slug}-keywords.md` | Tier 1–4 keywords, gap analysis, title recommendation |
-| `resume-outputs/{slug}-resume.md` | ATS-optimized tailored resume |
-| `resume-outputs/{slug}-cover-letter.md` | Targeted cover letter |
-| `resume-outputs/linkedin-about.md` | LinkedIn About section |
-| `resume-outputs/{slug}-qa-report.md` | QA review with APPROVED/REVISION status |
+| `profile/linkedin-about.md` | LinkedIn About section (one profile, updated per target role) |
+| `job-targets/{slug}/job-description.txt` | The raw job posting |
+| `job-targets/{slug}/keywords.md` | Tier 1–4 keywords, gap analysis, title recommendation |
+| `job-targets/{slug}/resume.md` | ATS-optimized tailored resume |
+| `job-targets/{slug}/cover-letter.md` | Targeted cover letter |
+| `job-targets/{slug}/qa-report.md` | QA review with APPROVED/REVISION status |
+
+The slug is `{company}-{title}` in kebab-case (e.g. `acme-staff-engineer`) — every artifact for a job lives in its own `job-targets/{slug}/` directory.
 
 ## When (which command, which moment)
 
@@ -201,8 +204,8 @@ Any agent will halt work and route back if:
 ├── skills/               # Domain expertise modules
 ├── team-config.json      # Agent roster and workflow config
 profile/                  # Your profile, skills, strategies, amplify plan
-job-targets/              # Saved job descriptions and keyword briefs
-resume-outputs/           # Resume drafts, cover letters, QA reports
+job-targets/              # One {slug}/ directory per job: description, keywords,
+                          # resume, cover letter, QA report
 patterns_library/         # Reusable resume patterns and templates
 CLAUDE.md                 # Team philosophy, workflow rules, stop-the-line conditions
 ```

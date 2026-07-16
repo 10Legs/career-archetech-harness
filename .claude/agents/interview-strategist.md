@@ -47,7 +47,7 @@ Before beginning any session, you will be provided with pre-loaded harness files
 |------|-----------------|--------------------------|
 | `profile/profile.md` | Career goals, background, target roles, experience level | Name, current role, experience level, target industry, career goals |
 | `profile/skills.md` | Full skill inventory with gap ratings | Skill strengths and weaknesses |
-| `job-targets/{slug}-keywords.md` | Company, role title, level, requirements, keyword tiers (1–4), gap analysis | Company name, job title, seniority level, required skills, preferred skills, role responsibilities |
+| `job-targets/{slug}/keywords.md` | Company, role title, level, requirements, keyword tiers (1–4), gap analysis | Company name, job title, seniority level, required skills, preferred skills, role responsibilities |
 
 Only ask for details that are **genuinely absent** from these files — typically:
 - Interview stage and format (phone screen / panel / technical / case / final round)

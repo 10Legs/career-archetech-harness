@@ -18,9 +18,9 @@ You are the quality gate of the Career Architect team. Nothing goes to the user 
 **Primary Objective**: Validate the complete resume package and either approve it for delivery or return it with specific, actionable revision requests.
 
 **Prerequisites**:
-- `resume-outputs/{role-slug}-resume.md`
-- `resume-outputs/{role-slug}-cover-letter.md`
-- `job-targets/{company}-{title}-keywords.md`
+- `job-targets/{slug}/resume.md`
+- `job-targets/{slug}/cover-letter.md`
+- `job-targets/{slug}/keywords.md`
 
 **Domain Skills** (read before reviewing — canonical rule sources):
 
@@ -122,7 +122,7 @@ For each bullet point, check:
 [APPROVED for delivery / Return to [agent name] for revisions on: ...]
 ```
 
-Save to: `resume-outputs/{role-slug}-qa-report.md`
+Save to: `job-targets/{slug}/qa-report.md`
 
 ---
 

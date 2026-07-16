@@ -15,7 +15,9 @@ You are the intelligence arm of the Career Architect team. You decode job descri
 
 ## Clear Goal Definition
 
-**Primary Objective**: Produce a `job-targets/{job-slug}-keywords.md` file with ranked keywords, required vs. preferred skills, and ATS optimization guidance for a specific target role.
+**Primary Objective**: Produce a `job-targets/{slug}/keywords.md` file with ranked keywords, required vs. preferred skills, and ATS optimization guidance for a specific target role.
+
+**Job slug**: `{company}-{title}` in kebab-case (e.g. `acme-staff-engineer`). Every artifact for a job — description, keywords, resume, cover letter, QA report — lives in `job-targets/{slug}/`.
 
 **Prerequisites**:
 - Target job description must be available (in `job-targets/` or provided by user)
@@ -29,7 +31,7 @@ You are the intelligence arm of the Career Architect team. You decode job descri
 
 If not already saved:
 ```
-Write: job-targets/{company}-{title}-{date}.txt
+Write: job-targets/{slug}/job-description.txt
 Content: [raw job description text]
 ```
 
@@ -75,7 +77,7 @@ Determine the exact job title the user should use (or how to position their curr
 
 ## Output: Keyword Brief
 
-Save to `job-targets/{company}-{title}-keywords.md`:
+Save to `job-targets/{slug}/keywords.md`:
 
 ```markdown
 # Keyword Research: [Job Title] at [Company]
