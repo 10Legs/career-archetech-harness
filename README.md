@@ -27,14 +27,14 @@ Nine specialist agents, each with a defined role, model tier, and an exit state 
 | Intake Consultant | Initial consultation, profile creation | sonnet | Profile Complete |
 | Skills Analyst | Skill inventory, latent & transferable skill mapping | sonnet | Skill Inventory Complete |
 | Keyword Researcher | Job description analysis, 4-tier keyword extraction | sonnet | Keywords Extracted |
-| Resume Architect | Resume construction, ATS optimization | inherit | Draft Ready for Review |
-| Narrative Crafter | Professional summary, cover letter, LinkedIn About | inherit | Narrative Complete |
-| QA Reviewer | Final quality gate before delivery | inherit | Approved for Delivery |
-| Career Strategist | Job search strategy, networking, salary guidance | inherit | Strategy Delivered |
-| Interview Strategist | Interview prep, mock interviews, STAR coaching | inherit | Interview Preparation Complete |
-| Amplify Strategist | AI leverage mapping for your current role | inherit | Amplify Plan Delivered |
+| Resume Architect | Resume construction, ATS optimization | opus | Draft Ready for Review |
+| Narrative Crafter | Professional summary, cover letter, LinkedIn About | opus | Narrative Complete |
+| QA Reviewer | Final quality gate before delivery | opus | Approved for Delivery |
+| Career Strategist | Job search strategy, networking, salary guidance | opus | Strategy Delivered |
+| Interview Strategist | Interview prep, mock interviews, STAR coaching | opus | Interview Preparation Complete |
+| Amplify Strategist | AI leverage mapping for your current role | opus | Amplify Plan Delivered |
 
-`inherit` means the agent runs on the session's model — heavy-judgment roles always get the most capable model available; conversational/extraction roles run fast on Sonnet. The Career, Interview, and Amplify Strategists carry `WebSearch`/`WebFetch` for live research.
+Every agent names its model explicitly in frontmatter — heavy-judgment roles (writing, QA, strategy, coaching) run on Opus; conversational/extraction roles run fast on Sonnet. The QA Reviewer runs on the same tier as the Resume Architect so the final gate is never weaker than the builder. The Career, Interview, and Amplify Strategists carry `WebSearch`/`WebFetch` for live research.
 
 ```mermaid
 flowchart LR
